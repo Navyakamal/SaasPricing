@@ -458,6 +458,9 @@ tbody .no{
     .r5, .r6 {
         padding: 0 10px; 
     }
+    .r7{
+        border: none;
+    }
 
 
   
@@ -556,4 +559,14 @@ tbody .no{
         }
      
     } 
+}
+@media(max-width:400px){
+    
+    .nav2 img{
+        height: 50px;
+        width: 80%;
+    }
+    .nav2 .brand-name{
+        width: 70%;
+    }
 }
